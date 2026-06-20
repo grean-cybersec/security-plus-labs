@@ -1,0 +1,13 @@
+2026-06-19 09:15:01 LOGIN_FAILED user=admin source_ip=203.0.113.45
+2026-06-19 09:15:03 LOGIN_FAILED user=admin source_ip=203.0.113.45
+2026-06-19 09:15:05 LOGIN_FAILED user=admin source_ip=203.0.113.45
+2026-06-19 09:15:07 LOGIN_FAILED user=admin source_ip=203.0.113.45
+2026-06-19 09:15:09 LOGIN_FAILED user=admin source_ip=203.0.113.45
+2026-06-19 09:15:11 LOGIN_FAILED user=admin source_ip=203.0.113.45
+2026-06-19 09:15:13 LOGIN_FAILED user=admin source_ip=203.0.113.45
+2026-06-19 09:15:15 LOGIN_SUCCESS user=admin source_ip=203.0.113.45
+2026-06-19 09:20:01 LOGIN_SUCCESS user=jperez source_ip=192.168.100.2
+2026-06-19 09:45:12 LOGIN_FAILED user=jperez source_ip=198.51.100.22
+2026-06-19 10:02:33 LOGIN_SUCCESS user=mlopez source_ip=192.168.100.5
+2026-06-19 10:15:44 FILE_ACCESS user=admin file=payroll_data.xlsx source_ip=203.0.113.45
+2026-06-19 10:16:01 FILE_ACCESS user=admin file=employee_ssn.csv source_ip=203.0.113.45
