@@ -7,10 +7,10 @@ scenarios commonly tested in CompTIA Security+ PBQ (Performance-Based
 Questions) and applied daily in SOC and sysadmin roles.
 
 ## Security+ Objectives Covered
-- 3.1 — Network security concepts (firewall rules, ACLs)
-- 4.6 — Implementing secure protocols (blocking Telnet, allowing HTTPS)
+- 3.2 — Infrastructure security principles (firewall placement, ACLs)
+- 4.5 — Enterprise capabilities: firewall rules and secure protocols (blocking Telnet, allowing HTTPS)
 - 4.3 — Network reconnaissance and discovery (port state verification)
-- 1.2 — Threat vectors (RDP exploitation, Telnet plaintext exposure)
+- 2.2 — Threat vectors and attack surfaces (RDP exposure, Telnet plaintext)
 
 ## Tools Used
 - Windows Defender Firewall with Advanced Security (wf.msc)

@@ -1,0 +1,5 @@
+# IDE / local config
+.idea/
+.vscode/
+__pycache__/
+*.pyc

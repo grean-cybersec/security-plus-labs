@@ -8,11 +8,11 @@ evidence (screenshots, PCAPs, logs), analysis, and the real-world security relev
 
 | # | Lab | Tools | Security+ Objectives |
 |---|-----|-------|----------------------|
-| 01 | [DNS Traffic Analysis](Lab-01-Wireshark-DNS/) | Wireshark, PowerShell | 3.1, 4.8, 4.9 |
-| 02 | [HTTP Credential Sniffing](Lab-02-HTTP-Credential-Sniffing/) | Wireshark, Python | 1.2, 3.1, 4.6 |
-| 03 | [Nmap Network Scanning](Lab-03-Nmap-Network-Scanning/) | Nmap, Wireshark | 4.3, 1.2, 3.1 |
-| 04 | [SIEM Basics: Brute Force Detection](Lab-04-Splunk-SIEM-Basics/) | Splunk, SPL | 4.4, 4.9, 1.2 |
-| 05 | [Firewall Rules & Access Control](Lab-05-Firewall-Rules/) | Windows Defender Firewall, PowerShell | 3.1, 4.6 |
+| 01 | [DNS Traffic Analysis](Lab-01-Wireshark-DNS/) | Wireshark, PowerShell | 4.9 |
+| 02 | [HTTP Credential Sniffing](Lab-02-HTTP-Credential-Sniffing/) | Wireshark, Python | 2.2, 3.2, 4.5 |
+| 03 | [Nmap Network Scanning](Lab-03-Nmap-Network-Scanning/) | Nmap, Wireshark | 4.3, 2.2 |
+| 04 | [SIEM Basics: Brute Force Detection](Lab-04-Splunk-SIEM-Basics/) | Splunk, SPL | 2.4, 4.4, 4.9 |
+| 05 | [Firewall Rules & Access Control](Lab-05-Firewall-Rules/) | Windows Defender Firewall, PowerShell | 3.2, 4.5 |
 | 06 | [Incident Response: Web Server Compromise](Lab-06-Incident-Response/) | Splunk, SPL | 4.8, 4.9, 2.3 |
 | 07 | [Purple Team: Detection & Automated Response](Lab-07-Purple-Team-Wazuh/) | Wazuh SIEM, Kali, Nmap, VirtualBox | 2.4, 4.4, 4.5, 4.8, 4.9 |
 
