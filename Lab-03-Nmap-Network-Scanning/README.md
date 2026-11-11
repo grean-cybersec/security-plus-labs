@@ -47,7 +47,6 @@ credentials are transmitted over the network.
 ![Network Host Discovery](screenshots/01-network-host-discovery.png)
 ![Router Port Scan](screenshots/02-router-port-scan.png)
 ![Router HTTP Login Page](screenshots/03-router-http-login-page.png)
-![Hashed Credential in Transit](screenshots/04-router-login-hashed-credential.png)
 
 ## Analysis — HTTP Transport vs Credential Protection
 

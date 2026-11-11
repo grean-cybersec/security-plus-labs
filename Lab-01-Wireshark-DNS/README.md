@@ -16,7 +16,6 @@ of unencrypted DNS.
 4. Applied `dns` display filter to isolate DNS packets
 5. Analyzed query and response packet structure (Transaction ID, flags, answers)
 6. Identified load balancing — amazon.com resolved to 3 different IPs
-7. Saved capture as `dns-capture.pcap`
 
 ## Key Observations
 - DNS queries use UDP port 53
@@ -27,7 +26,6 @@ of unencrypted DNS.
   - 98.87.170.71
 - DNS response time: 7.846700 ms (normal range: under 100ms)
 - Background DNS traffic observed from OS (safebrowsing.googleapis.com)
-- Traffic captured over IPv6 (2806:2f0::/32 — Latin American range)
 - DNS traffic is unencrypted — fully visible to any network observer
 
 ## Screenshots

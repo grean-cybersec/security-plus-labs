@@ -59,10 +59,6 @@ Verified with PowerShell:
 Get-NetFirewallRule -DisplayName "ALLOW-HTTPS-Port443-Outbound" | Format-List
 Result: Enabled: True | Action: Allow | Direction: Outbound
 
-### 4. Export Firewall Configuration
-Exported complete firewall configuration as evidence and backup:
-netsh advfirewall export "firewall-rules-export.wfw"
-
 ## Screenshots
 ![Firewall Rules Overview](screenshots/01-firewall-rules-overview.png)
 ![Telnet Rule Verification](screenshots/02-telnet-rule-verification.png)
