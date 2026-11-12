@@ -1,0 +1,31 @@
+<!-- Custom SQLi detection rules - Lab 08 -->
+<!-- File: /var/ossec/etc/rules/local_rules.xml (Wazuh manager) -->
+
+<group name="web,attack,sqli,">
+
+  <!-- Rule v1: naive signature match on single SQL keywords.
+       Kept for comparison. Generates false positives (e.g. a user
+       searching "union europea" contains the word "union"). -->
+  <rule id="100100" level="10">
+    <if_group>web</if_group>
+    <url>UNION|union|SELECT|select|%27</url>
+    <description>SQLi v1 - deteccion por firmas basicas (ruidosa)</description>
+    <mitre>
+      <id>T1190</id>
+    </mitre>
+  </rule>
+
+  <!-- Rule v2: combination match using PCRE2, case-insensitive.
+       Requires two SQL elements together (union + select, or + 1=1,
+       quote + boolean + operator), which legitimate traffic lacks.
+       Removes the false positive while keeping the detection. -->
+  <rule id="100101" level="12">
+    <if_group>web</if_group>
+    <match type="pcre2">(?i)(union.+select|or.+1=1|'.+(or|and).+=)</match>
+    <description>SQLi v2 - deteccion por combinacion de patrones</description>
+    <mitre>
+      <id>T1190</id>
+    </mitre>
+  </rule>
+
+</group>

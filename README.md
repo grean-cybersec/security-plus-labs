@@ -15,12 +15,15 @@ evidence (screenshots, PCAPs, logs), analysis, and the real-world security relev
 | 05 | [Firewall Rules & Access Control](Lab-05-Firewall-Rules/) | Windows Defender Firewall, PowerShell | 3.2, 4.5 |
 | 06 | [Incident Response: Web Server Compromise](Lab-06-Incident-Response/) | Splunk, SPL | 4.8, 4.9, 2.3 |
 | 07 | [Purple Team: Detection & Automated Response](Lab-07-Purple-Team-Wazuh/) | Wazuh SIEM, Kali, Nmap, VirtualBox | 2.4, 4.4, 4.5, 4.8, 4.9 |
+| 08 | [Writing & Tuning Custom SQLi Detection Rules](Lab-08-SQLi-Detection-Custom-Rules/) | Wazuh SIEM, Kali, DVWA, PCRE2 | 2.4, 4.4, 4.5 |
 
 ## Skills Demonstrated
 - **Network analysis:** capturing and reading DNS and HTTP traffic at the packet level
 - **Reconnaissance:** host discovery and port scanning, interpreting results
 - **SIEM and detection:** ingesting logs, writing SPL queries, building alerts, deploying
   Wazuh agents and reading correlated alerts
+- **Detection engineering:** writing custom Wazuh rules, measuring false positives, and
+  tuning a rule to cut noise without losing coverage
 - **Incident response:** reconstructing attack timelines across log sources and reporting
   them with the NIST IR lifecycle and MITRE ATT&CK
 - **Automated response:** containing an SSH brute-force attack with Wazuh Active Response
